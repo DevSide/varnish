@@ -15,7 +15,7 @@ This module allows you to send a special HTTP request to Varnish.
     Varnish::instance()->purge(URL::site('/page/to/purge'));
 
     // Multi
-    Varnish::instance()->purge(array(
+    Varnish::instance()->purgeAll(array(
         URL::site('/page/to/purge'),
         URL::site('/page/to/purge')
     );
