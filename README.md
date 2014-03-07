@@ -1,12 +1,11 @@
 #Varnish module for Koahana 3
 
-This module allows you to communicate with Mandrill API 1.0
-[Mandrill API documentation](https://github.com/kohana/kohana)
+This module allows you to send a special HTTP request to Varnish.
 ---
 
 ##Requirements
 * PHP Curl extension
-* You should have configured Varnish to purge an url on
+* You should have configured Varnish to purge an url
 
 ##Usage
 
