@@ -1,4 +1,4 @@
-#Varnish module for Koahana 3
+#Varnish module for Kohana 3
 
 This module allows you to send a special HTTP request to Varnish.
 ---
